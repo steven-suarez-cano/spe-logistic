@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">SPE Logistica</string>
+    <string name="user_login">Usuario</string>
+    <string name="password_login">Contraseña</string>
+    <string name="button_login">Entrar</string>
+    <string name="button_register">Registrarse</string>
+    <string name="logo_spe">logo_spe</string>
+    <string name="boxes">boxes</string>
+    <string name="name">Razón social</string>
+    <string name="nit">NIT</string>
+    <string name="address">Dirección</string>
+    <string name="city">Ciudad</string>
+    <string name="road_type">Tipo de vía</string>
+    <string name="number_simbol">#</string>
+    <string name="chart">A</string>
+    <string name="orientation">Orient.</string>
+    <string name="save">Guardar</string>
+    <string name="receiverName">Nombre destinatario</string>
+    <string name="receiverPhone">Teléfono destinatario</string>
+    <string name="receiverEmail">Email destinatario</string>
+    <string name="receiverAddress">Dirección destinatario</string>
+    <string name="reference">Referencia</string>
+    <string name="references">Referencias</string>
+    <string name="cont">Cantidad</string>
+    <string name="add">Agregar</string>
+    <string name="remove">Quitar</string>
+    <string name="seemore">Ver más</string>
+    <string name="month">Mes</string>
+    <string name="inputs">Entradas</string>
+    <string name="outputs">Salida</string>
+    <string name="barcode">Código de barras</string>
+    <string name="rotationIndicator">Rotación mes</string>
+    <string name="timeCellar">Tiempo con SPE</string>
+    <string name="collectDate">Fecha de recogida</string>
+    <string name="collectTime">Hora de recogida</string>
+    <string name="collectAddress">Dirección de recogida</string>
+    <string name="boxs">Cajas</string>
+    <string name="height">Altura</string>
+    <string name="wifth">Ancho</string>
+    <string name="large">Largo</string>
+    <string name="weight">Peso</string>
+    <string name="statement">Declaración de contenido</string>
+    <string name="valueStatement">Valor declarado</string>
+    <string name="referenceDescription">Descripción de la referencia</string>
+    <string name="valueUnity">Valor unidad</string>
+    <string name="value">Valor</string>
+    <string name="unitsPackage">Unds empaque</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="pleaseJustifyDelete">Por favor justifique la eliminación</string>
+    <string name="characters15">15 caracteres mínimo</string>
+    <string name="invoice">Factura</string>
+    <string name="entryDate">Fecha de ingreso</string>
+    <string name="dammedInventory">Inventario represado</string>
+    <string name="date">Fecha</string>
+    <string name="description">Descripción</string>
+    <string name="pdf">PDF</string>
+    <string name="historyChanges">Historial de cambios</string>
+    <string name="id">ID</string>
+    <string name="export">Exportar</string>
+    <string name="pqrs">PQRs</string>
+    <string name="seeIndicators">Ver indicadores</string>
+    <string name="indicators">Indicadores</string>
+    <string name="state">Estado</string>
+    <string name="averageTime">Tiempo promedio</string>
+    <string name="onEnlistment">En alistar</string>
+    <string name="onDispatch">En despachar</string>
+    <string name="total">Total</string>
+    <string name="ok">Ok</string>
+    <string name="category">Categoría</string>
+    <string name="markLikeSolved">Marcar como solucionado</string>
+
+
+    <string name="key_map">pk.eyJ1Ijoic3RldmVuc2MyNyIsImEiOiJjazI2ZG5hZzQzMGd4M2JwaTcyM3VpYmlnIn0.6H0hEqE1CCePN2kCQWllxw</string>
+
+
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="title_send">Envíos</string>
+    <string name="title_collect">Recogidas</string>
+    <string name="title_inventory">Inventario</string>
+    <string name="title_references">Referencias</string>
+    <string name="title_perfil">Perfil</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="address_options">
+        <item>Seleccione</item>
+        <item>1-Calle</item>
+        <item>2-Carrera</item>
+        <item>3-Circular</item>
+    </string-array>
+
+    <string-array name="orientation_road_options">
+        <item>Seleccione</item>
+        <item>1-Norte</item>
+        <item>2-Sur</item>
+        <item>3-Este</item>
+        <item>3-Oeste</item>
+    </string-array>
+
+
+    <string-array name="city_options">
+        <item>Seleccione</item>
+        <item>1-Medellín</item>
+        <item>2-Sabaneta</item>
+        <item>3-La Estrella</item>
+        <item>4-Bello</item>
+        <item>5-Bogotá</item>
+        <item>6-Cartagena</item>
+        <item>7-Cali</item>
+        <item>8-Barichara</item>
+        <item>9-Jardín</item>
+    </string-array>
+
+    <string-array name="send_states">
+        <item>Seleccione</item>
+        <item>1-Reservado</item>
+        <item>2-Alistado</item>
+        <item>3-Despachado</item>
+    </string-array>
+
+</resources>

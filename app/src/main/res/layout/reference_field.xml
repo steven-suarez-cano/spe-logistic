@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0">
+
+    <EditText
+        android:id="@+id/send_item_codebar_dinamic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".70"
+        android:backgroundTint="@color/colorGreenSpe"
+        android:ems="10"
+        android:hint="@string/reference"
+        android:inputType="number|textPersonName"
+        android:textColor="@color/colorPurpleSpe"
+        android:textColorHint="@color/colorClearPurpleSpe" />
+
+    <EditText
+        android:id="@+id/send_item_amount_dinamic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".30"
+        android:backgroundTint="@color/colorGreenSpe"
+        android:ems="10"
+        android:hint="@string/number_simbol"
+        android:inputType="number|textPersonName"
+        android:textColor="@color/colorPurpleSpe"
+        android:textColorHint="@color/colorClearPurpleSpe" />
+
+
+</LinearLayout>

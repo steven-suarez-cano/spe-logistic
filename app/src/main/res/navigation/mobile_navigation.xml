@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_inventory">
+
+    <fragment
+        android:id="@+id/navigation_inventory"
+        android:name="com.example.spe_logistic.ui.inventory.InventoryFragment"
+        android:label="@string/title_inventory"
+        tools:layout="@layout/fragment_inventory" />
+
+    <fragment
+        android:id="@+id/navigation_send"
+        android:name="com.example.spe_logistic.ui.send.SendFragment"
+        android:label="@string/title_send"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/navigation_collect"
+        android:name="com.example.spe_logistic.ui.collect.CollectFragment"
+        android:label="@string/title_collect"
+        tools:layout="@layout/fragment_collect" />
+
+    <fragment
+        android:id="@+id/navigation_references"
+        android:name="com.example.spe_logistic.ui.references.ReferencesFragment"
+        android:label="@string/title_references"
+        tools:layout="@layout/fragment_references" />
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.example.spe_logistic.ui.perfil.PerfilFragment"
+        android:label="@string/title_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/collectItemFragment"
+        android:name="com.example.spe_logistic.ui.collect.CollectItemFragment"
+        android:label="fragment_collect_item"
+        tools:layout="@layout/fragment_collect_item" />
+
+    <fragment
+        android:id="@+id/sendItemFragment"
+        android:name="com.example.spe_logistic.ui.send.SendItemFragment"
+        android:label="fragment_send_item"
+        tools:layout="@layout/fragment_send_item" />
+    <fragment
+        android:id="@+id/referencesItemFragment"
+        android:name="com.example.spe_logistic.ui.references.ReferencesItemFragment"
+        android:label="fragment_references_item"
+        tools:layout="@layout/fragment_references_item" />
+    <fragment
+        android:id="@+id/inventorySendFragment"
+        android:name="com.example.spe_logistic.ui.inventory.InventorySendFragment"
+        android:label="fragment_inventory_send"
+        tools:layout="@layout/fragment_inventory_send" />
+    <fragment
+        android:id="@+id/inventoryInventoryFragment"
+        android:name="com.example.spe_logistic.ui.inventory.InventoryInventoryFragment"
+        android:label="fragment_inventory_inventory"
+        tools:layout="@layout/fragment_inventory_inventory" />
+    <fragment
+        android:id="@+id/inventoryRotationFragment"
+        android:name="com.example.spe_logistic.ui.inventory.InventoryRotationFragment"
+        android:label="fragment_inventory_rotation"
+        tools:layout="@layout/fragment_inventory_rotation" />
+    <fragment
+        android:id="@+id/inventoryDammedFragment"
+        android:name="com.example.spe_logistic.ui.inventory.InventoryDammedFragment"
+        android:label="fragment_inventory_dammed"
+        tools:layout="@layout/fragment_inventory_dammed" />
+    <fragment
+        android:id="@+id/perfilPqrFragment"
+        android:name="com.example.spe_logistic.ui.perfil.PerfilPqrFragment"
+        android:label="fragment_perfil_pqr"
+        tools:layout="@layout/fragment_perfil_pqr" />
+    <fragment
+        android:id="@+id/perfilPqrItemFragment"
+        android:name="com.example.spe_logistic.ui.perfil.PerfilPqrItemFragment"
+        android:label="fragment_perfil_pqr_item"
+        tools:layout="@layout/fragment_perfil_pqr_item" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.spe_logistic.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.example.spe_logistic.RegisterActivity"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+</navigation>
